@@ -2,7 +2,7 @@
   "name": "photo-port",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anitapeppercorn.github.io/Photo-Port-Oh-Snap",
+  "homepage": "https://anitapeppercorn.github.io/Photo-Port",
   "dependencies": {
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
