@@ -1,5 +1,102 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Portfolio Developed with React.Js
 
+### Introduction
+Github Repository
+``` text 
+https://github.com/anitapeppercorn/react-portfolio
+```
+App is Deployed at:
+``` text
+https://anitapeppercorn.github.io/react-portfolio/
+```
+
+This is a place where I can share my projects and work with fellow developers and collaborate on future projects. I’ve completed multiple projects,and deployed this application to GitHub Pages. 
+
+
+## Contents
+- [Description](#Description)
+- [App Screenshot](#App)
+- [User Story](#User-Story)
+- [Acceptance Criteria](#Acceptance-Criteria)
+- [Concepts](#Concepts)
+- [License](#License)
+- [Author](#Author)
+
+## Description
+
+I have updated my portfilio and deployed it on GitHub pages. The user will be able to view my portfolio here. This React App has a component hierarchy to include the following:
+1. A single Header component that appears on multiple pages
+2. A single Navigation component within the header that will be used to conditionally render the different sections of your portfolio
+3. A single Project component that will be used multiple times in the Portfolio section
+4. A single Footer component that appears on multiple pages 
+5. It uses mobile-first design with a color palette so that the site doesn't just look like the default Bootstrap theme or an unstyled HTML site. (used a resource Coolors scheme generator). The font size is large enough/colors don't cause eye strain.
+6. Optional: Consider using animations and React component libraries. Note that this will not affect your grade, but it may impact how potential employers gauge your knowledge.
+
+### App Screenshot
+![](public/assets/images/portfolio.png)
+
+
+## User Story
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
+
+## Acceptance Criteria
+GIVEN a single-page application portfolio for a web developer
+WHEN I load the portfolio
+THEN I am presented with a page containing a header, a section for content, and a footer
+WHEN I view the header
+THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+WHEN I view the navigation titles
+THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+WHEN I click on a navigation title
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+WHEN I load the portfolio the first time
+THEN the About Me title and section are selected by default
+WHEN I am presented with the About Me section
+THEN I see a recent photo of the developer and a short bio about them
+WHEN I am presented with the Portfolio section
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
+WHEN I am presented with the Contact section
+THEN I see a contact form with fields for a name, an email address, and a message
+WHEN I move my cursor out of one of the form fields without entering text
+THEN I receive a notification that this field is required
+WHEN I enter text into the email address field
+THEN I receive a notification if I have entered an invalid email address
+WHEN I am presented with the Resume section
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+WHEN I view the footer
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+
+
+## Concepts
+
+In this project I applied the following skills:
+1. Built a single-page application with React.
+2. Created reusable components within a React application.
+3. Managed state within React components.
+4. Passed props to child components.
+5. Used React Hooks to manage state in functional components.
+
+Conditionally render components based on updates to state.
+
+## License
+[MIT License](./LICENSE)
+![license](https://img.shields.io/badge/License-MIT-blue)
+
+## Author: Anita Ganti
+
+View the authors' portfolio at:  
+https://anitapeppercorn.github.io/react-portfolio/
+![Badge](https://img.shields.io/badge/Github-anitapeppercorn-4cbbb9) 
+![Profile Image](https://github.com/anitapeppercorn.png?size=50)
+
+[Table of Content](#Table-of-Content) --- [Back to Top](#Budget-Tracket-API) --- # Budget-Tracker-API
+
+
+# React Boiler Plate
 ## Available Scripts
 
 In the project directory, you can run:
