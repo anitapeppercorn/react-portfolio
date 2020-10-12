@@ -34,7 +34,7 @@ I have updated my portfilio and deployed it on GitHub pages. The user will be ab
 6. Optional: Consider using animations and React component libraries. Note that this will not affect your grade, but it may impact how potential employers gauge your knowledge.
 
 ### App Screenshot
-![](public/assets/images/portfolio.png)
+![](src/assets/images/portfolio.png)
 
 
 ## User Story
