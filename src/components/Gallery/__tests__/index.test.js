@@ -4,8 +4,8 @@ import '@testing-library/jest-dom/extend-expect';
 import Gallery from '..';
 
 const portrait = {
-	name: 'portraits',
-	description: 'Portraits of people in my life',
+	name: 'Front-End_Projects',
+	description: 'Front-End_Projects of people in my life',
 };
 
 afterEach(cleanup);

@@ -79,6 +79,7 @@ In this project I applied the following skills:
 3. Managed state within React components.
 4. Passed props to child components.
 5. Used React Hooks to manage state in functional components.
+6. Used a color coordinated scheme from COOLORS https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 
 Conditionally render components based on updates to state.
 

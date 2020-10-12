@@ -44,7 +44,7 @@ exports[`Nav component matches snapshot 1`] = `
           class="mx-1 false"
         >
           <span>
-            Portraits
+            Front-End_Projects
           </span>
         </li>
       </ul>
