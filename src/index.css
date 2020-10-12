@@ -149,11 +149,11 @@ li {
   list-style: none;
 }
 
-nav a:hover {
+header a:hover {
   text-decoration: none;
 }
 
-nav  li {
+header  li {
   cursor: pointer;
 }
 
@@ -289,7 +289,7 @@ a {
 	
 }
 
-.navActive {
+.headerActive {
   color: var(--secondary);
 }
 

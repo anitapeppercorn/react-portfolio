@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Nav(props) {
+function Header(props) {
 	const {
 		categories = [],
 		setCurrentCategory,
@@ -32,7 +32,7 @@ function Nav(props) {
 							className={`mx-1 ${
 								currentCategory.name === category.name &&
 								!contactSelected &&
-								'navActive'
+								'headerActive'
 							}`}
 							key={category.name}
 						>
@@ -47,7 +47,7 @@ function Nav(props) {
 						</li>
 					))}
 
-						<li className={`mx-2 ${contactSelected && 'navActive'}`}>
+						<li className={`mx-2 ${contactSelected && 'headerActive'}`}>
 											<span
 												onClick={() => {
 													setContactSelected(true);
@@ -62,4 +62,4 @@ function Nav(props) {
 	);
 }
 
-export default Nav;
+export default Header;
