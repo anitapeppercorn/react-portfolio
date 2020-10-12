@@ -39,12 +39,13 @@ function ContactForm() {
 	}
 
 	return (
-		<section>
+		<section className= 'modalContainer'>
 			<h1 data-testid='contact-h1'>Contact me</h1>
 			<form id='contact-form' onSubmit={handleSubmit}>
 				<div>
 					<label htmlFor='name'>Name:</label>
 					<input
+						classname = 'input'
 						type='text'
 						name='name'
 						defaultValue={name}
@@ -52,8 +53,9 @@ function ContactForm() {
 					/>
 				</div>
 				<div>
-					<label htmlFor='email'>Email address:</label>
+					<label htmlFor='email'>Email:</label>
 					<input
+						classname = 'input'
 						type='email'
 						name='email'
 						defaultValue={email}
@@ -62,9 +64,11 @@ function ContactForm() {
 				</div>
 				<div>
 					<label htmlFor='message'>Message:</label>
-					<textarea
-						name='message'
+					<input
+						classname = 'input'
+						type='text'
 						rows='5'
+						name='message'
 						defaultValue={message}
 						onBlur={handleChange}
 					/>
