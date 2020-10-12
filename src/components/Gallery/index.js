@@ -1,6 +1,6 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import PhotoList from '../PhotoList';
+import ProjectList from '../ProjectList';
 
 function Gallery({ currentCategory }) {
 	const { name, description } = currentCategory;
@@ -9,7 +9,7 @@ function Gallery({ currentCategory }) {
 		<section>
 			<h1 data-testid='h1tag'>{capitalizeFirstLetter(name)}</h1>
 			<p>{description}</p>
-			<PhotoList category={name} />
+			<ProjectList category={name} />
 		</section>
 	);
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import {
   FaGithubSquare,
   FaMailBulk,
+  FaTwitterSquare,
   FaLinkedin
 } from "react-icons/fa";
 import { IconContext } from "react-icons";
@@ -23,6 +24,9 @@ function Footer() {
           </a>
           <a href="https://www.linkedin.com/in/anita-ganti-9380961">
           <FaLinkedin />
+          </a>
+          <a href="https://www.twitter.com/mrsganti">
+          <FaTwitterSquare />
           </a>
         </div>
       </IconContext.Provider>
