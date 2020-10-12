@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-//import About from './components/About';
-// remove <About /> call for about component in <main> after <Gallery currentCategory={currentCategory} /> 
 import Header from './components/Header';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
