@@ -46,6 +46,13 @@ function ProjectList({ category }) {
 				'I have built a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site was built from scratch and deployed to Heroku. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. (I have used an Express.js API, configure it to use Sequelize to interact with a MySQL database). A link to the start up demo video and this code for the app is published to github',
 		},
 		{
+			name: 'FANTINDER - Choose a movie',
+			category: 'Business_Applications',
+			link: 'https://fantinder.herokuapp.com/',
+			description:
+				'This is a project I built with a team. This is like "Goodreads" but for movies where a user can select movies to watch. This site was built from scratch and deployed to Heroku. The app follows the MVC paradigm in its architectural structure, using React.js as the templating language. (I have used an GraphQL and used mongoose to interact with a MongoDB database).',
+		},
+		{
 			name: 'Password Generator',
 			category: 'Front-End_Projects',
 			link: 'https://anitapeppercorn.github.io/PasswordGenerator/',
